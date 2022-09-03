@@ -1,11 +1,14 @@
 import logo from './logo.svg';
-import './App.css';
+import "./scss/styles.scss";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 id='name'>Roxane Noel</h1>
+        <h1 id='title'>Roxane Noel</h1>
+        <nav class="navbar">
+          
+        </nav>
       </header>
     </div>
   );
