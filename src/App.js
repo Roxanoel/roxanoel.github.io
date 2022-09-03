@@ -1,10 +1,11 @@
 import Navbar from "./components/Navbar";
+import Title from "./components/Title";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 id='title'>Roxane Noel</h1>
+        <Title />
         <Navbar />
       </header>
     </div>
