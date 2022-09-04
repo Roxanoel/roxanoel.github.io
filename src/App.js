@@ -8,6 +8,10 @@ function App() {
         <Title />
         <Navbar />
       </header>
+      <div id="App-body">
+        <section>This is a section that will become its own component.</section>
+        <aside></aside>
+      </div>
     </div>
   );
 }
