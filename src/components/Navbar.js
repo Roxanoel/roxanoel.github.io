@@ -2,9 +2,9 @@ function Navbar() {
 return (
   <nav class="navbar">
     <ul>
-      <li>Web</li>
-      <li>Games</li>
-      <li>Misc</li>
+      <li>WEB</li>
+      <li>GAMES</li>
+      <li>MISC</li>
     </ul>
   </nav>
 )
