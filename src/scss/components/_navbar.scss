@@ -1,8 +1,17 @@
-.navbar ul {
-    display: flex;
-}
+@use "../base/structural";
 
-.navbar li {
+.navbar {
+
+    padding: 12px;
+    border-top: structural.$border-outline;
+    border-bottom: structural.$border-outline;
+
+    ul {
+        display: flex;
+    }
+
+    li {
     padding: 0px 24px;
     font-size: 24px;
+    }
 }
