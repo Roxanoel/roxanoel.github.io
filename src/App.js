@@ -11,7 +11,7 @@ function App() {
       </header>
       <div id="app-body">
         <section>This is a section that will become its own component.</section>
-        <aside></aside>
+        <aside className="portrait"></aside>
       </div>
       <Footer />
     </div>
