@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Title from "./components/Title";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,12 +13,7 @@ function App() {
         <section>This is a section that will become its own component.</section>
         <aside></aside>
       </div>
-      <footer className="navbar footer">
-        <ul>
-          <li>GITHUB</li>
-          <li>ITCH</li>
-        </ul>
-      </footer>
+      <Footer />
     </div>
   );
 }
