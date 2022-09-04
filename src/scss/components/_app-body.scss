@@ -1,9 +1,18 @@
 @use "../base/structural";
 
+#app-body {
+    height: 100%;
+}
+
 @media (min-width: 768px) {
     #app-body {
         display: grid;
         grid-template-columns: 50% 50%;
+
+        :nth-child(odd) {
+            height: 100%;
+            border-right: structural.$border-outline;
+        }
     }
 
 }

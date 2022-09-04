@@ -3,8 +3,8 @@ import Title from "./components/Title";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="app">
+      <header className="app-header">
         <Title />
         <Navbar />
       </header>
@@ -12,6 +12,12 @@ function App() {
         <section>This is a section that will become its own component.</section>
         <aside></aside>
       </div>
+      <footer className="navbar footer">
+        <ul>
+          <li>GITHUB</li>
+          <li>ITCH</li>
+        </ul>
+      </footer>
     </div>
   );
 }
