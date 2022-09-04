@@ -8,7 +8,7 @@ function App() {
         <Title />
         <Navbar />
       </header>
-      <div id="App-body">
+      <div id="app-body">
         <section>This is a section that will become its own component.</section>
         <aside></aside>
       </div>

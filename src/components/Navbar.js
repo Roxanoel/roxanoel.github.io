@@ -4,6 +4,7 @@ return (
     <ul>
       <li>WEB</li>
       <li>GAMES</li>
+      <li>LINKS</li>
       <li>MISC</li>
     </ul>
   </nav>
