@@ -1,11 +1,14 @@
+import NavLink from "./Navlink";
+
 function Navbar() {
 return (
   <nav class="navbar">
     <ul>
-      <li>WEB</li>
-      <li>GAMES</li>
-      <li>LINKS</li>
-      <li>MISC</li>
+      <NavLink text="WEB" />
+      <NavLink text="GAMES" />
+      <NavLink text="LINKS" />
+      <NavLink text="LATIN" />
+      <NavLink text="MISC" />
     </ul>
   </nav>
 )

@@ -1,9 +1,11 @@
+import NavLink from "./Navlink";
+
 function Footer() {
     return (
         <footer className="navbar footer">
             <ul>
-                <li>GITHUB</li>
-                <li>ITCH</li>
+                <NavLink text="GITHUB" />
+                <NavLink text="ITCH" />
             </ul>
         </footer>
     )
