@@ -1,17 +1,21 @@
 @use '../base/palette';
 
 #title {
-    font-family: 'Chubby and Groovy';
+    font-family: 'Eckmannpsych';
     font-weight: normal;
-    font-size: 96px;
+    font-size: 160px;
+    height: 160px;
 
     color: palette.$orange-accent;
     text-shadow: 2px 4px 0 palette.$green-accent;
 
     text-align: center;
-    padding: 24px;
+    padding: 0;
   }
 
   .title-container {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
