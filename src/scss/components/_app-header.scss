@@ -1,0 +1,11 @@
+@use "../base/palette";
+
+.app-header {
+    // Colour, opacity, blur
+    background-color: palette.$background-light-translucent;
+    backdrop-filter: blur(12px);
+
+    // Sticky
+    position: sticky;
+    top: 0;
+}

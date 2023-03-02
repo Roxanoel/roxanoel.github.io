@@ -1,8 +1,7 @@
 @use "../base/structural";
 
 #app-body {
-    height: 100%;
-    flex-grow: 1;
+    min-height: 900px; // For testing scroll behaviour 
 }
 
 @media (min-width: 768px) {
