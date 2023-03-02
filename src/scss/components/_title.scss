@@ -3,19 +3,19 @@
 #title {
     font-family: 'Eckmannpsych';
     font-weight: normal;
-    font-size: 160px;
-    height: 160px;
+    font-size: 5rem;
+    height: 6rem;
 
-    color: palette.$orange-accent;
-    text-shadow: 2px 4px 0 palette.$green-accent;
+    color: palette.$shadow-outline;
 
-    text-align: center;
+    text-align: left;
     padding: 0;
   }
 
   .title-container {
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding-top: 1rem;
+    padding-left: 1.75rem;
   }
