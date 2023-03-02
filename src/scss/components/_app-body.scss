@@ -9,10 +9,10 @@
         display: grid;
         grid-template-columns: 50% 50%;
 
-        :nth-child(odd) {
+        /*:nth-child(odd) {
             height: 100%;
             border-right: structural.$border-outline;
-        }
+        }*/  // Removed for now
     }
 
 }

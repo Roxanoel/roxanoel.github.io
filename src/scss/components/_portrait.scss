@@ -1,5 +1,9 @@
 .portrait {
+    // Image + placement
     background-image: url("../../assets/img/portrait.png");
     background-size: cover;
     background-position: center bottom;
+
+    // Shape
+    border-top-left-radius: 10rem;
 }
