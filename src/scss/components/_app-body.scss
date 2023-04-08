@@ -6,8 +6,11 @@
 
 @media (min-width: 768px) {
     #app-body {
-        display: grid;
-        grid-template-columns: auto minmax(0, 720px);
+       display: flex;
+       
+        // Previous grid system
+        /* display: grid;
+        grid-template-columns: auto minmax(0, 720px);*/
 
         /*:nth-child(odd) {
             height: 100%;
