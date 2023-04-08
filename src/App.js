@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Title from "./components/Title";
 import Footer from "./components/Footer";
+import HeroText from "./components/HeroText";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <Navbar />
       </header>
       <div id="app-body">
-        <section>This is a section that will become its own component.</section>
+        <HeroText />
         <aside className="portrait"></aside>
       </div>
       <Footer />
