@@ -2,7 +2,7 @@ import NavLink from "./Navlink";
 
 function Navbar() {
 return (
-  <nav class="navbar">
+  <nav className="navbar">
     <ul>
       <NavLink text="WEB" />
       <NavLink text="GAMES" />
