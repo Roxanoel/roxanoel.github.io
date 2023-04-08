@@ -1,3 +1,8 @@
 .hero-text-container {
+    // Take up as much space as possible in parent flex container
     flex: 1;
+
+    // For contents
+    display: flex;
+    justify-content: center;
 }
