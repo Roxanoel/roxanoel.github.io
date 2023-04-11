@@ -3,9 +3,13 @@ import { getLikedItemOne, getLikedItemTwo } from "../utils/LikedItems";
 function HeroText() {
     return (
         <section className="hero-text-container">
-            <div>
-                Hello! I am Roxane, a frontend developer and UX designer based in Newmarket, UK. I love {getLikedItemOne()}  and {getLikedItemTwo()}.
-            </div>
+            <p> Hello! </p>
+            <p>
+                I am Roxane, a frontend developer and UX designer based in Newmarket, UK. 
+            </p>
+            <p>
+            I love {getLikedItemOne()}  and {getLikedItemTwo()}.
+            </p>
         </section>
     )
 }
