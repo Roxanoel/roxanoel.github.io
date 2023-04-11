@@ -4,11 +4,13 @@ function Navbar() {
 return (
   <nav className="navbar">
     <ul>
-      <NavLink text="WEB" />
+      <NavLink text="GITHUB" />
+      <NavLink text="ITCH.IO" />
+      {/*<NavLink text="WEB" />
       <NavLink text="GAMES" />
       <NavLink text="LINKS" />
       <NavLink text="LATIN" />
-      <NavLink text="MISC" />
+      <NavLink text="MISC" /> */}
     </ul>
   </nav>
 )

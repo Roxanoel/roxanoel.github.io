@@ -16,7 +16,7 @@ function App() {
             <HeroText />
             <aside className="portrait"></aside>
           </div>
-          <Footer />
+          {/*<Footer /> */}
       </div>
       <Button customClass="contact-button">
         Get in touch
