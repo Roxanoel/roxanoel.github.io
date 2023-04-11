@@ -7,17 +7,19 @@ import Button from "./components/Button";
 function App() {
   return (
     <div className="app">
-      <header className="app-header">
-        <Title />
-        <Navbar />
-      </header>
-      <div id="app-body">
-        <HeroText />
-        <aside className="portrait"></aside>
+      <div className="app-container">
+        <header className="app-header">
+          <Title />
+          <Navbar />
+        </header>
+          <div id="app-body">
+            <HeroText />
+            <aside className="portrait"></aside>
+          </div>
+          <Footer />
       </div>
-      <Footer />
       <Button customClass="contact-button">
-                Get in touch
+        Get in touch
       </Button>
     </div>
   );
