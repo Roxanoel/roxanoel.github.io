@@ -1,15 +1,18 @@
 import { getItemOne, getItemThree, getItemTwo } from "../utils/FunFacts";
+import Button from "./Button";
 
 function HeroText() {
     return (
         <section className="hero-text-container">
-            <p> Hello! </p>
-            <p>
-                I am Roxane, a <strong>frontend developer</strong> and <strong>UX designer</strong> based in Newmarket, UK. 
-            </p>
-            <p>
-                I draw inspiration from nature, cuisine, and all things vintage and DYI.
-            </p>
+            <div>
+                <p> Hello! </p>
+                <p>
+                    I am Roxane, a <strong>frontend developer</strong> and <strong>UX designer</strong> based in Newmarket, UK. 
+                </p>
+                <p>
+                    I draw inspiration from nature, cuisine, and all things vintage and DYI.
+                </p>
+            </div>
             <div>
                 More about me: 
                 <ul>
@@ -18,6 +21,9 @@ function HeroText() {
                     <li>{getItemThree()}</li>
                 </ul>
             </div>
+            <Button>
+                Get in touch
+            </Button>
         </section>
     )
 }
