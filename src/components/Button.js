@@ -1,6 +1,6 @@
-function Button({ children }) {
+function Button({ children, customClass }) {
     return (
-        <button className="button">
+        <button className={`button ${customClass}`}>
             {children}
         </button>
     )

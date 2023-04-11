@@ -1,5 +1,4 @@
 import { getItemOne, getItemThree, getItemTwo } from "../utils/FunFacts";
-import Button from "./Button";
 
 function HeroText() {
     return (
@@ -13,17 +12,14 @@ function HeroText() {
                     I draw inspiration from nature, cuisine, and all things vintage and DYI.
                 </p>
             </div>
-            <div>
+            {/*<div>
                 More about me: 
                 <ul>
                     <li>{getItemOne()}</li>
                     <li>{getItemTwo()}</li>
                     <li>{getItemThree()}</li>
                 </ul>
-            </div>
-            <Button>
-                Get in touch
-            </Button>
+    </div> */}
         </section>
     )
 }

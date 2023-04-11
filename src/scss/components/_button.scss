@@ -7,4 +7,11 @@
     padding: 8px 16px;
     border-radius: 99px;
     outline: 2px solid $shadow-outline;
+    display: inline-block;
+    width: fit-content;
+}
+
+.contact-button {
+    position: sticky;
+    bottom: 0px;
 }
