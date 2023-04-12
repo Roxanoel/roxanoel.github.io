@@ -19,7 +19,7 @@ function App() {
           {/*<Footer /> */}
       </div>
       <Button customClass="contact-button">
-        Get in touch
+        <a href="mailto:roxane.noel92@gmail.com">Get in touch</a>
       </Button>
     </div>
   );
