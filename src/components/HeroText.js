@@ -6,7 +6,7 @@ function HeroText() {
             <div>
                 <p> Hello! </p>
                 <p>
-                    I am Roxane, a <strong>frontend developer</strong> and <strong>UX designer</strong> based in Newmarket, UK. 
+                    I am Roxane, a <strong>frontend developer</strong> and <strong>UX designer</strong> at Opteo. I am based in Newmarket, UK.  
                 </p>
                 <p>
                     I draw inspiration from nature, cuisine, and all things vintage and DIY.
