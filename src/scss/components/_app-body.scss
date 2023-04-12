@@ -1,7 +1,7 @@
 @use "../base/structural";
 
 #app-body {
-    min-height: 900px; // For testing scroll behaviour 
+    min-height: 100vh;
 }
 
 @media (min-width: 768px) {
