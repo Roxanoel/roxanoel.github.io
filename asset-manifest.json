@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.be597f20.css",
+    "main.css": "/static/css/main.680f5e7c.css",
     "main.js": "/static/js/main.137aa139.js",
     "static/js/787.0fa356c6.chunk.js": "/static/js/787.0fa356c6.chunk.js",
     "static/media/portrait.png": "/static/media/portrait.534fd6abe9edb8ed075a.png",
@@ -11,12 +11,12 @@
     "static/media/OpenSauceTwo-Regular.ttf": "/static/media/OpenSauceTwo-Regular.b0de3300826fd7bbd4fe.ttf",
     "static/media/Eckmannpsych-Medium.woff2": "/static/media/Eckmannpsych-Medium.744e5bb3c46043632c54.woff2",
     "index.html": "/index.html",
-    "main.be597f20.css.map": "/static/css/main.be597f20.css.map",
+    "main.680f5e7c.css.map": "/static/css/main.680f5e7c.css.map",
     "main.137aa139.js.map": "/static/js/main.137aa139.js.map",
     "787.0fa356c6.chunk.js.map": "/static/js/787.0fa356c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be597f20.css",
+    "static/css/main.680f5e7c.css",
     "static/js/main.137aa139.js"
   ]
 }
