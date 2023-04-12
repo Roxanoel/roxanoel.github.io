@@ -1,26 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.b14b9aba.css",
+    "main.css": "/static/css/main.574af491.css",
     "main.js": "/static/js/main.d0488625.js",
     "static/js/787.0fa356c6.chunk.js": "/static/js/787.0fa356c6.chunk.js",
     "static/media/portrait.png": "/static/media/portrait.534fd6abe9edb8ed075a.png",
-    "static/media/Chubby And Groovy.ttf": "/static/media/Chubby And Groovy.b191bcdb7b25e56a01df.ttf",
+    "static/media/Eckmannpsych-Medium.ttf": "/static/media/Eckmannpsych-Medium.dcd0cfae7bbb2c284e59.ttf",
     "static/media/OpenSauceTwo-Italic.ttf": "/static/media/OpenSauceTwo-Italic.2a74fab7d2a5baad609e.ttf",
     "static/media/OpenSauceTwo-Bold.ttf": "/static/media/OpenSauceTwo-Bold.4cc16e7e60ffcf351bba.ttf",
+    "static/media/Eckmannpsych-Medium.woff": "/static/media/Eckmannpsych-Medium.828c7c164e9fe8155bd6.woff",
     "static/media/OpenSauceTwo-Regular.ttf": "/static/media/OpenSauceTwo-Regular.b0de3300826fd7bbd4fe.ttf",
-    "static/media/Margin DEMO.otf": "/static/media/Margin DEMO.5da5c7ad9f35173b82fd.otf",
-    "static/media/Eckmannpsych-Demo-Medium.otf": "/static/media/Eckmannpsych-Demo-Medium.70c994b8c268ae450655.otf",
-    "static/media/CheeeDemo-Jimbo.otf": "/static/media/CheeeDemo-Jimbo.7182aad756035b0b312f.otf",
-    "static/media/CheeeDemo-Crimer.otf": "/static/media/CheeeDemo-Crimer.b2093a1dd5ef708b8b82.otf",
-    "static/media/CheeeDemo-Schemer.otf": "/static/media/CheeeDemo-Schemer.3cf7496b894b84fda77c.otf",
-    "static/media/CheeeDemo-Sticky.otf": "/static/media/CheeeDemo-Sticky.7b840d605c1a1296f6a6.otf",
+    "static/media/Eckmannpsych-Medium.woff2": "/static/media/Eckmannpsych-Medium.744e5bb3c46043632c54.woff2",
     "index.html": "/index.html",
-    "main.b14b9aba.css.map": "/static/css/main.b14b9aba.css.map",
+    "main.574af491.css.map": "/static/css/main.574af491.css.map",
     "main.d0488625.js.map": "/static/js/main.d0488625.js.map",
     "787.0fa356c6.chunk.js.map": "/static/js/787.0fa356c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b14b9aba.css",
+    "static/css/main.574af491.css",
     "static/js/main.d0488625.js"
   ]
 }
