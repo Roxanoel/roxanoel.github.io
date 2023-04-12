@@ -18,3 +18,10 @@
     bottom: 56px;
     left: 56px;
 }
+
+@media only screen and (max-width: 600px) {
+    .contact-button {
+        bottom: 16px;
+        left: 16px;
+    }
+}
