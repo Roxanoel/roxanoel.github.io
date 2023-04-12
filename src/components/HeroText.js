@@ -9,7 +9,7 @@ function HeroText() {
                     I am Roxane, a <strong>frontend developer</strong> and <strong>UX designer</strong> based in Newmarket, UK. 
                 </p>
                 <p>
-                    I draw inspiration from nature, cuisine, and all things vintage and DYI.
+                    I draw inspiration from nature, cuisine, and all things vintage and DIY.
                 </p>
             </div>
             {/*<div>
