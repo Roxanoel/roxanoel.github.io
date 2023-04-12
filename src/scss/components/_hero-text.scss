@@ -1,6 +1,7 @@
 .hero-text-container {
     // Take up as much space as possible in parent flex container
     flex: 1;
+    width: 100%;
 
     // For layout inside
     display: flex;
