@@ -27,3 +27,8 @@ li {
 button {
     border-style: none;
 }
+
+a {
+    color: palette.$shadow-outline;
+    text-decoration: none;
+}

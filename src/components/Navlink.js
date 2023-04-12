@@ -1,7 +1,7 @@
-function NavLink(props) {
+function NavLink({ link, text }) {
     return (
         <li className="navlink-container">
-            <a className="navlink" href={props.link}>{props.text}</a>
+            <a className="navlink" href={link}>{text}</a>
         </li>
     )
 }
