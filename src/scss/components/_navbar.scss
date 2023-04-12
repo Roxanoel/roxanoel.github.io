@@ -1,6 +1,8 @@
 @use "../base/structural";
 
 .navbar {
+    box-sizing: border-box;
+
     padding: 12px;
     border-top: structural.$border-outline;
     border-bottom: structural.$border-outline;

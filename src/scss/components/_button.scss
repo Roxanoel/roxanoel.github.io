@@ -1,6 +1,7 @@
 @use "../base/palette";
 
 .button {
+    box-sizing: border-box;
     background-color: $orange-accent;
     font-size: 36px;
     color: $shadow-outline;
