@@ -4,12 +4,15 @@ function HeroText() {
     return (
         <div className="hero-text-container">
             <div>
-                <p> Hello! </p>
+                <p>Hi! I'm Roxane, a <strong>frontend developer</strong> and <strong>UX designer</strong> based in San Francisco 🌉</p>
                 <p>
-                    I am Roxane, a <strong>frontend developer</strong> and <strong>UX designer</strong> currently working at Opteo, where I help ideate, design and implement new features for a PPC marketing optimization tool. I am based in Newmarket, UK.  
+                I like to build cool stuff with <strong>Vue</strong>, <strong>React</strong>, <strong>Unity</strong>, and sometimes my sewing machine. In a past life, I studied medieval philosophy at the University of Cambridge. 
                 </p>
                 <p>
-                    I draw inspiration from nature, cuisine, and all things vintage and DIY.
+                I'm a <strong>driven</strong> and <strong>passionate</strong> creator who is not afraid of trying new things. Whatever the project, I'll bring on my good mood and a little extra pizzazz. 
+                </p>
+                <p>
+                Got a project you need help with? Want to know more about twelfth century philosophy? Wish you had someone to share raccoon memes with? Don't be a stranger, drop me a message! 💌
                 </p>
             </div>
             {/*<div>
