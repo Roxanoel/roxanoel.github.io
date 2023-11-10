@@ -8,11 +8,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 48px;
+    padding: 48px 72px;
+    text-wrap: balance;
     gap: 48px;
 
     // Contents by inheritance
-    font-size: 20px;
+    font-size: 16px;
 }
 
 @media only screen and (max-width: 600px) {

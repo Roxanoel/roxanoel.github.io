@@ -16,14 +16,14 @@ function App() {
               <Title />
               <JobTitles />
               <HeroText />
+              <Button customClass="contact-button">
+                  <a href="mailto:roxane.noel92@gmail.com">Get in touch</a>
+              </Button>
             </section>
             <aside className="portrait"></aside>
           </div>
           {/*<Footer /> */}
       </div>
-      <Button customClass="contact-button">
-        <a href="mailto:roxane.noel92@gmail.com">Get in touch</a>
-      </Button>
     </div>
   );
 }

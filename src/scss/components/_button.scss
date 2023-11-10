@@ -15,9 +15,8 @@
 }
 
 .contact-button {
-    position: fixed;
+    position: sticky;
     bottom: 56px;
-    left: 56px;
 }
 
 @media only screen and (max-width: 600px) {
