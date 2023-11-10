@@ -1,0 +1,16 @@
+@use "../base/palette";
+
+.job-titles-container {
+    display: flex;
+    font-family: 'Open Sauce Two';
+    font-weight: bold;
+    font-size: 24px;
+    gap: 1rem;
+}
+
+.job-titles-asterisk {
+    font-family: 'Eckmannpsych';
+    color: palette.$orange-accent;
+    font-size: 48px;
+    line-height: 24px;
+}
