@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Title from "./components/Title";
-import Footer from "./components/Footer";
+import JobTitles from "./components/JobTitles";
 import HeroText from "./components/HeroText";
 import Button from "./components/Button";
 
@@ -14,6 +14,7 @@ function App() {
           <div id="app-body">
             <section class="hero-section">
               <Title />
+              <JobTitles />
               <HeroText />
             </section>
             <aside className="portrait"></aside>
