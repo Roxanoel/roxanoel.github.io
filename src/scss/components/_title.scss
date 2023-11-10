@@ -3,16 +3,19 @@
 #title {
     font-family: 'Eckmannpsych';
     font-weight: normal;
-    font-size: 5rem;
+    font-size: 6rem;
+    letter-spacing: -0.25rem;
     //height: 6rem;
 
     color: palette.$shadow-outline;
 
     text-align: left;
     padding: 0;
+    margin-top: 54px;
   }
 
-  .title-container {
+  // Old, was used when title was part of app header
+  .title-container {   
     display: flex;
     align-items: center;
     padding-bottom: 1rem;

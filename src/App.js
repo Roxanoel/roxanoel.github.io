@@ -9,11 +9,13 @@ function App() {
     <div className="app">
       <div className="app-container">
         <header className="app-header">
-          <Title />
           <Navbar />
         </header>
           <div id="app-body">
-            <HeroText />
+            <section class="hero-section">
+              <Title />
+              <HeroText />
+            </section>
             <aside className="portrait"></aside>
           </div>
           {/*<Footer /> */}

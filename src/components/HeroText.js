@@ -2,7 +2,7 @@ import { getItemOne, getItemThree, getItemTwo } from "../utils/FunFacts";
 
 function HeroText() {
     return (
-        <section className="hero-text-container">
+        <div className="hero-text-container">
             <div>
                 <p> Hello! </p>
                 <p>
@@ -20,7 +20,7 @@ function HeroText() {
                     <li>{getItemThree()}</li>
                 </ul>
     </div> */}
-        </section>
+        </div>
     )
 }
 
