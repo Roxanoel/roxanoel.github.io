@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.680f5e7c.css",
-    "main.js": "/static/js/main.137aa139.js",
+    "main.css": "/static/css/main.aaa30bb6.css",
+    "main.js": "/static/js/main.0c8af083.js",
     "static/js/787.0fa356c6.chunk.js": "/static/js/787.0fa356c6.chunk.js",
     "static/media/portrait.png": "/static/media/portrait.534fd6abe9edb8ed075a.png",
     "static/media/Eckmannpsych-Medium.ttf": "/static/media/Eckmannpsych-Medium.dcd0cfae7bbb2c284e59.ttf",
@@ -11,12 +11,12 @@
     "static/media/OpenSauceTwo-Regular.ttf": "/static/media/OpenSauceTwo-Regular.b0de3300826fd7bbd4fe.ttf",
     "static/media/Eckmannpsych-Medium.woff2": "/static/media/Eckmannpsych-Medium.744e5bb3c46043632c54.woff2",
     "index.html": "/index.html",
-    "main.680f5e7c.css.map": "/static/css/main.680f5e7c.css.map",
-    "main.137aa139.js.map": "/static/js/main.137aa139.js.map",
+    "main.aaa30bb6.css.map": "/static/css/main.aaa30bb6.css.map",
+    "main.0c8af083.js.map": "/static/js/main.0c8af083.js.map",
     "787.0fa356c6.chunk.js.map": "/static/js/787.0fa356c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.680f5e7c.css",
-    "static/js/main.137aa139.js"
+    "static/css/main.aaa30bb6.css",
+    "static/js/main.0c8af083.js"
   ]
 }
