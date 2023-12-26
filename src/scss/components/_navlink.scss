@@ -1,13 +1,20 @@
 @use '../base/palette';
+
 .navlink-container {
     cursor: crosshair;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
-.navlink{
+.navlink {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     position: relative;
+}
+.navlink-icon  {
+    color: palette.$orange-accent;
 }
 .navlink::before {
     content: "";
