@@ -30,7 +30,8 @@ button {
     border-style: none;
 }
 
-a {
+a, a:-webkit-any-link {
     color: palette.$shadow-outline;
     text-decoration: none;
+    cursor: crosshair;
 }
