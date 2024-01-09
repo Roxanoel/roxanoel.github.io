@@ -1,7 +1,7 @@
 import NavLink from "./Navlink";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faItchIo } from "@fortawesome/free-brands-svg-icons";
-import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import { faLaptopCode, faSolid, faGraduationCsap, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import LogoSvg from "./LogoSvg";
 
 function Navbar() {
@@ -18,14 +18,13 @@ return (
       <NavLink text="ITCH.IO" link="https://roxanoel.itch.io/"> 
         <FontAwesomeIcon icon={faItchIo} />
 </NavLink>*/}
+      {/*<NavLink text="EDUCATION">
+        <FontAwesomeIcon icon={faGraduationCap} />
+      </NavLink>*/}
       <NavLink text="PROJECTS">
         <FontAwesomeIcon icon={faLaptopCode} />
       </NavLink>
-      {/*<NavLink text="WEB" />
-      <NavLink text="GAMES" />
-      <NavLink text="LINKS" />
-      <NavLink text="LATIN" />
-      <NavLink text="MISC" /> */}
+
     </ul>
   </nav>
 )
