@@ -1,13 +1,13 @@
 @use "../base/structural";
 
-#app-body {
+#hero-section {
     min-height: 100vh;
     width: 100%;
     max-width: 100%;
 }
 
 @media (min-width: 768px) {
-    #app-body {
+    #hero-section {
        display: flex;
        
         // Previous grid system

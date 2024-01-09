@@ -8,7 +8,7 @@ function App() {
         <header className="app-header">
           <Navbar />
         </header>
-          <div id="app-body">
+          <div id="hero-section">
             <HeroSection />
           </div>
           {/*<Footer /> */}
