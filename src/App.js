@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import HomePage from "./pages/HomePage";
+import HeroSection from "./pages/HeroSection";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
           <Navbar />
         </header>
           <div id="app-body">
-            <HomePage />
+            <HeroSection />
           </div>
           {/*<Footer /> */}
       </div>
