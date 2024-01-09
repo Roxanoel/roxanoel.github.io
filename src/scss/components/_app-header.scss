@@ -6,7 +6,7 @@
     backdrop-filter: blur(12px);
 
     // Absolute, was sticky before, consider sticky if/when I make page scrollable
-    position: absolute;
+    position: sticky;
     top: 0;
 
     // Dimensions
