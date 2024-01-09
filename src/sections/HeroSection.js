@@ -3,7 +3,7 @@ import JobTitles from "../components/JobTitles"
 import HeroText from "../components/HeroText"
 import Button from "../components/Button"
 
-function HomePage() {
+function HeroSection() {
     return <>
     <section className="hero-section">
               <Title />
@@ -17,4 +17,4 @@ function HomePage() {
     </>
 }
 
-export default HomePage
+export default HeroSection
