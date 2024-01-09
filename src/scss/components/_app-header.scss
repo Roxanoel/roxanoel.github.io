@@ -5,8 +5,7 @@
     background-color: palette.$background-light-translucent;
     backdrop-filter: blur(12px);
 
-    // Absolute, was sticky before, consider sticky if/when I make page scrollable
-    position: sticky;
+    position: fixed;
     top: 0;
 
     // Dimensions
