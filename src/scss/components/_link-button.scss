@@ -1,0 +1,22 @@
+@use "../base/palette";
+
+.link-buttons-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.link-button {
+    box-sizing: border-box;
+    background-color: $orange-accent;
+    color: $shadow-outline;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 99px;
+    cursor: crosshair;
+    display: flex;
+    gap: 0.5rem;
+    border: 2px solid $shadow-outline;
+}
+.link-button .link-button-text {
+    font-weight: bold;
+}
