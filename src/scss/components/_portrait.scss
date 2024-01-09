@@ -9,7 +9,9 @@
 
     // Shape + size
     border-top-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
     width: min(720px, 33.33vw);
+    height: 120vh;
 
     // Other 
     border: structural.$border-outline;
