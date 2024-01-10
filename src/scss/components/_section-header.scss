@@ -1,0 +1,9 @@
+@use "../base/palette";
+
+.section-header {
+    font-family: 'Eckmannpsych';
+    font-weight: normal;
+    font-size: 4rem;
+    letter-spacing: -0.2rem;
+    color: palette.$shadow-outline;
+}
