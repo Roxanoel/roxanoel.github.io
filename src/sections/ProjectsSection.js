@@ -1,5 +1,8 @@
+import ProjectCard from "../components/projects/ProjectCard";
+
 function ProjectsSection() {
-    let projects = require("../assets/data/projects.json")
+    const projectsData = require("../assets/data/projects.json")
+
     
     return <div id="projects-section"> 
         <div className="projects-section-title">
@@ -12,7 +15,15 @@ function ProjectsSection() {
         </div>
         <div className="projects-list-container">
             {/* Put project cards here; make component + list rendering*/}
-            {JSON.stringify(projects)}
+            {
+                projectsData.projects.map((project) => {
+                return <ProjectCard 
+                    name={project.name} 
+                    description={project.description} 
+                    tags={project.tags}
+                    liveLink={project.liveLink}
+                    githubLink={project.githubLink}  />})
+            }
         </div>
     </div>
 }
