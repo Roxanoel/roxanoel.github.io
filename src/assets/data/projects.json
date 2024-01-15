@@ -1,0 +1,17 @@
+{
+    "projects":[{
+        "name":"Memory Cards Game", 
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "tags": ["react"],
+        "githubLink": "https://github.com/Roxanoel/memory-cards-game",
+        "liveLink": "https://roxanoel.github.io/memory-cards-game/"
+        },
+        {
+        "name": "Picky Eaters",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "tags": "unity",
+        "githubLink": "https://github.com/Roxanoel/PickyEaters-Source",
+        "liveLink": "https://roxanoel.itch.io/picky-eaters"
+        }
+    ]
+}
