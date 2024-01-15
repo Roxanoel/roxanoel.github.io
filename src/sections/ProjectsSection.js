@@ -18,6 +18,7 @@ function ProjectsSection() {
             {
                 projectsData.projects.map((project) => {
                 return <ProjectCard 
+                    key={project.name}
                     name={project.name} 
                     description={project.description} 
                     tags={project.tags}
