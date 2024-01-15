@@ -11,7 +11,7 @@ function HeroSection() {
               <Title />
               <JobTitles />
               <HeroText />
-              <div class="link-buttons-container">
+              <div className="link-buttons-container">
                 <LinkButton text="GITHUB" link="https://github.com/Roxanoel">
                     <FontAwesomeIcon icon={faGithub} />
                 </LinkButton>
