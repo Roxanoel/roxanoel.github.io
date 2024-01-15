@@ -1,0 +1,14 @@
+@use '../base/structural';
+
+.project-card {
+    // Size & layout
+    max-width: 862px;
+    justify-content: space-between;
+    align-items: flex-start;
+    // Border
+    border-radius: 32px;
+    border: structural.$border-outline;
+}
+.project-card-text-container {
+    padding: 32px;
+}
