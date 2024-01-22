@@ -5,3 +5,10 @@
     flex-direction: column;
     align-items: center;
 }
+
+.projects-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}

@@ -23,7 +23,8 @@ function ProjectsSection() {
                     description={project.description} 
                     tags={project.tags}
                     liveLink={project.liveLink}
-                    githubLink={project.githubLink}  />})
+                    githubLink={project.githubLink}
+                    imageLink={project.imageLink}  />})
             }
         </div>
     </div>
