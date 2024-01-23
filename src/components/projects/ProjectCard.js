@@ -6,9 +6,7 @@ function ProjectCard({name, description, tags, githubLink, liveLink, imageLink})
             {liveLink && <button>Live Demo</button>}
             {githubLink && <button>Learn More</button>}
         </div>
-        <div className="project-card-image-container">
-            <div className="project-card-image" style={{backgroundImage: `url(${imageLink})`, backgroundColor: "red"}} />
-        </div>
+        <div className="project-card-image" style={{backgroundImage: `url(${imageLink})`, backgroundColor: "red"}} />
     </div>
 }
 

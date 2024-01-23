@@ -5,8 +5,7 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     max-width: 862px;
-    //justify-content: space-between;
-    //align-items: flex-start;
+    overflow: hidden;
     // Border
     border-radius: 32px;
     border: structural.$border-outline;
