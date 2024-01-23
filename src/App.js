@@ -7,12 +7,14 @@ function App() {
     <div className="app">
       <div className="app-container">
         <header className="app-header">
-          <Navbar />
+          {/*<Navbar />*/}
         </header>
           <div id="hero-section">
             <HeroSection />
           </div>
+          {/*
           <ProjectsSection />
+          */}
           {/*<Footer /> */}
       </div>
     </div>
