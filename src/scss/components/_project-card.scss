@@ -3,7 +3,7 @@
 .project-card {
     // Size & layout
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     max-width: 862px;
     overflow: hidden;
     // Border
@@ -14,12 +14,8 @@
     padding: 32px;
 }
 
-.project-card-image-container {
-    //width: 100%;
-    overflow: hidden;
-}
-
 .project-card-image {
     width: 100%;
     overflow: hidden;
+    border-left: structural.$border-outline;
 }
