@@ -20,3 +20,13 @@
 .link-button .link-button-text {
     font-weight: bold;
 }
+
+@media only screen and (max-width: 400px) {
+    .link-buttons-container {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .link-button {
+        font-size: 14px;
+    }
+}
