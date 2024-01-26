@@ -7,6 +7,15 @@
     border-bottom: structural.$border-outline;
 }
 
+.hero-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; // Might need to be removed + adding a margin when readding nav bar
+    padding: 54px 48px;
+}
+
 @media (min-width: 768px) {
     #hero-section {
        display: flex;
