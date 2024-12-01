@@ -18,8 +18,8 @@ export default function ProjectItem({
   // TODO: Proper placeholder for when there is no image
   return (
     <li className="mb-12" key={title + "_" + year.toString()}>
-      <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-        <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-lg transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-item-hover/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(246, 216, 187, 0.1)] lg:group-hover:drop-shadow-[0_6px_8px_rgba(243,120,5,0.25)]" />
+      <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 md:hover:!opacity-100 md:group-hover/list:opacity-50">
+        <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-lg transition motion-reduce:transition-none md:-inset-x-6 md:block md:group-hover:bg-item-hover/50 md:group-hover:shadow-[inset_0_1px_0_0_rgba(246, 216, 187, 0.1)] md:group-hover:drop-shadow-[0_6px_8px_rgba(243,120,5,0.25)]" />
         <div className="z-10 sm:order-2 sm:col-span-6">
           <h3>
             <a
@@ -29,7 +29,7 @@ export default function ProjectItem({
               rel="noreferrer noopener"
               aria-label={titleAriaLabel}
             >
-              <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded-lg md:-inset-x-6 md:-inset-y-4 lg:block" />
+              <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded-lg md:-inset-x-6 md:-inset-y-4 md:block" />
               <span>
                 {title}
                 <span className="inline-block">
