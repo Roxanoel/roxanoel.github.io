@@ -1,4 +1,12 @@
+// components
 import Header from "@/components/Header/Header";
+import ExperienceItem from "@/components/ExperienceItem/ExperienceItem";
+import ProjectItem from "@/components/ProjectItem/ProjectItem";
+// data
+import experiences from "@/data/experience/experience";
+import projects from "@/data/projects/projects";
+// types
+import type { Experience, Project } from "@/types/types";
 
 export default function Page() {
   return (
@@ -22,13 +30,27 @@ export default function Page() {
             id="experience"
             className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
           >
-            Experience
+            <h2 className="text-sm font-bold uppercase tracking-widest text-foreground-secondary lg:sr-only">
+              Experience
+            </h2>
+            <ol>
+              {experiences.map((exp: Experience) => {
+                return ExperienceItem(exp);
+              })}
+            </ol>
           </section>
           <section
             id="projects"
             className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
           >
-            Projects
+            <h2 className="text-sm font-bold uppercase tracking-widest text-foreground-secondary lg:sr-only">
+              Projects
+            </h2>
+            <ol>
+              {projects.map((proj: Project) => {
+                return ProjectItem(proj);
+              })}
+            </ol>
           </section>
         </main>
       </div>

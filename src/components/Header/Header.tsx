@@ -1,11 +1,13 @@
+import { FaItchIo, FaGithub, FaLinkedin } from "react-icons/fa6";
+
 export default function Header() {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
-        <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
+        <h1 className="text-4xl font-bold tracking-tight text-foreground-secondary sm:text-5xl">
           Roxane Noël
         </h1>
-        <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
+        <h2 className="mt-3 text-lg font-medium tracking-tight text-foreground-secondary sm:text-xl">
           Front End Engineer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
@@ -15,24 +17,24 @@ export default function Header() {
           <ul className="mt-16 w-max">
             <li>
               <a className="group flex items-center py-3 active" href="#about">
-                <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+                <span className="nav-indicator mr-4 h-px w-8 bg-foreground-main/40 transition-all group-hover:w-16 group-hover:bg-foreground-secondary group-focus-visible:w-16 group-focus-visible:bg-foreground-secondary motion-reduce:transition-none"></span>
+                <span className="nav-text text-xs font-bold uppercase tracking-widest text-foreground-tertiary group-hover:text-foreground-secondary group-focus-visible:text-foreground-secondary">
                   About
                 </span>
               </a>
             </li>
             <li>
               <a className="group flex items-center py-3" href="#experience">
-                <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+                <span className="nav-indicator mr-4 h-px w-8 bg-foreground-main/40 transition-all group-hover:w-16 group-hover:bg-foreground-secondary group-focus-visible:w-16 group-focus-visible:bg-foreground-secondary motion-reduce:transition-none"></span>
+                <span className="nav-text text-xs font-bold uppercase tracking-widest text-foreground-tertiary group-hover:text-foreground-secondary group-focus-visible:text-foreground-secondary">
                   Experience
                 </span>
               </a>
             </li>
             <li>
               <a className="group flex items-center py-3" href="#projects">
-                <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+                <span className="nav-indicator mr-4 h-px w-8 bg-foreground-main/40 transition-all group-hover:w-16 group-hover:bg-foreground-secondary group-focus-visible:w-16 group-focus-visible:bg-foreground-secondary motion-reduce:transition-none"></span>
+                <span className="nav-text text-xs font-bold uppercase tracking-widest text-foreground-tertiary group-hover:text-foreground-secondary group-focus-visible:text-foreground-secondary">
                   Projects
                 </span>
               </a>
@@ -40,6 +42,50 @@ export default function Header() {
           </ul>
         </nav>
       </div>
+      <ul
+        className="ml-1 mt-8 flex items-center text-accent"
+        aria-label="Social media"
+      >
+        <li className="mr-5 shrink-0 text-xs">
+          <a
+            className="block hover:text-accent-secondary"
+            href="https://github.com/Roxanoel"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="GitHub (opens in a new tab)"
+            title="GitHub"
+          >
+            <span className="sr-only">GitHub</span>
+            <FaGithub className="h-6 w-6" />
+          </a>
+        </li>
+        <li className="mr-5 shrink-0 text-xs">
+          <a
+            className="block hover:text-accent-secondary"
+            href="https://www.linkedin.com/in/roxane-noel/"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="LinkedIn (opens in a new tab)"
+            title="LinkedIn"
+          >
+            <span className="sr-only">LinkedIn</span>
+            <FaLinkedin className="h-6 w-6" />
+          </a>
+        </li>
+        <li className="mr-5 shrink-0 text-xs">
+          <a
+            className="block hover:text-accent-secondary"
+            href="https://roxanoel.itch.io/"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Itch.io (opens in a new tab)"
+            title="Itch.io"
+          >
+            <span className="sr-only">Itch.io</span>
+            <FaItchIo className="h-6 w-6" />
+          </a>
+        </li>
+      </ul>
     </header>
   );
 }
